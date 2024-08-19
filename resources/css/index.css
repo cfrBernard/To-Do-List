@@ -1,0 +1,175 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    background-color: #1c1c1e;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+        .background {
+            background: linear-gradient(160deg, #3E5151, #272729);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0; 
+            left: 0; 
+            z-index: -100; 
+        }
+#github-button {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(var(--vh, 1vh) * 50); 
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+    .container::-webkit-scrollbar {
+      width: 0; 
+    }
+    .container::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+    .container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    @media (max-height: 840px) {
+        .container {
+            height: calc(var(--vh, 1vh) * 65); 
+        }
+    }
+    @media (max-height: 640px) {
+        .container {
+            height: calc(var(--vh, 1vh) * 70); 
+        }
+    }
+.task-container {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    overflow: visible;
+    cursor: pointer;
+}
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        30% {
+            opacity: 0.8;
+            transform: translateX(-20%);
+        }
+        100% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+    }
+    .fade-out {
+        animation: fadeOut 0.5s forwards;
+    }
+.task-content {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.task-text {
+    font-weight: bold;
+    overflow-wrap: break-word; 
+    margin-bottom: 5px; 
+    color: black;
+}
+.task-actions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}
+.task-date {
+    color: gray;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-right: 10px; 
+}
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.delete-btn {
+    color: rgba(194, 190, 190, 0.918);
+}
+.delete-btn:hover {
+    color: red;
+}
+.delete-btn i {
+    font-size: 16px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+#add-btn {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    min-height: 30px;
+    color: rgb(165, 165, 165);
+    background-color: #ddd;
+    border-color: #ddd;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+#add-btn i {
+    margin-left: 8px;
+}
+#taskInput {
+    font-size: large;
+    min-height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f4f4f4;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #ddd;
+}
+footer a {
+    color: #ddd;
+}
+.text-footer {
+    margin-top: 0;
+}

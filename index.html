@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/img/icon.svg" type="svg/x-icon">
+    <link rel="shortcut icon" href="resources/img/icon.svg" type="svg/x-icon">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/css/legal-popup-index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/img/ios/ios-icon-180px.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="resources/img/ios/ios-icon-152px.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="resources/img/ios/ios-icon-144px.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="resources/img/ios/ios-icon-120px.png">
+    <title>To-Do List</title>
+</head>
+<body>
+    
+    <div class="background"></div>
+    <img id="github-button" src="resources/img/github.svg" alt="github" onclick="window.location.href='https://github.com/cfrBernard';">
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Add a task...">
+        <button id="add-btn" onclick="addTask()">Add<i class="fas fa-plus-circle"></i></button>
+        <div id="taskList"></div>
+    </div>
+
+    <div id="popup-overlay"></div>
+            <div id="legal-popup-container">
+                <span id="legal-popup-close">&times;</span>
+
+                <h1>Legal Notice</h1>
+                <hr>
+                <h2>Classic To-Do List</h2>
+                <h3>Site Editor:</h3>
+                <p>C. Bernard 
+                    <br>Email: cfr.bernard@yahoo.com</p>
+                <h3>Hosting Provider:</h3>
+                <p>GitHub, Inc.
+                    <br>Address : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA
+                    <br>Phone : +1 (415) 448-6673</p>
+                <hr>
+                <h2>1. Terms of Use</h2>
+                <p>The use of the Classic To-Do List website implies full and complete acceptance of the terms and conditions described below. These terms of use may be modified or supplemented at any time.</p>
+                <h2>2. Limitation of Liability</h2>
+                <p>C. Bernard cannot be held responsible for any direct or indirect damages caused to the user’s equipment during access to the Classic To-Do List website, resulting either from the use of equipment that does not meet the specifications mentioned in point 4 or from the occurrence of a bug or incompatibility.</p>
+                <h2>3. MIT License</h2>
+                <p>The source code of this site is licensed under the MIT License. This means that you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, provided that the copyright notice and permission notice appear in all copies or substantial portions of the Software.</p>
+                <h3>MIT License Summary:</h3>
+                <p>Permission is granted to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.</p>
+                <p>Conditions: Include the copyright notice and the permission notice in all copies or substantial portions of the Software.</p>
+                <p>Disclaimer: The Software is provided "as is", without warranty of any kind.</p>
+                <hr>
+                <h1>Privacy Policy</h1>
+                <h2>1. Collection of Personal Data</h2>
+                <p>The Classic To-Do List website does not collect any directly identifiable personal data by the editor. However, data may be stored locally on the user's device via localStorage to enhance the user experience (e.g., saving preferences, tasks, etc.).</p>
+                <h2>2. Use of Collected Data</h2>
+                <p>Data stored locally in the user's browser is only accessible by the user and is not transmitted to third parties or collected by the site editor.</p>
+                <h2>3. Data Retention</h2>
+                <p>Data stored via localStorage in the user's browser is retained indefinitely, or until the user manually deletes it.</p>
+                <h2>4. User Rights</h2>
+                <p>Users have the right to access, rectify, and delete their data. Although the editor does not have direct access to local data, users can manage or delete data stored on their device through their browser settings at any time.</p>
+                <h2>5. Data Security</h2>
+                <p>The editor is committed to implementing all necessary measures to protect the confidentiality of users' data. However, it is the user's responsibility to ensure that their computing environment is secure.</p>
+                <h2>6. Changes to the Privacy Policy</h2>
+                <p>The site editor reserves the right to modify this privacy policy to ensure its compliance with current laws. Users are encouraged to regularly review this policy to stay informed of any updates.</p>
+                <hr>
+                <br>
+                <p>© 2024 Designed and built by C. Bernard. MIT License.</p>
+                <br>
+            </div>
+            <footer class="footer"><p class="text-footer" translate="no" style="user-select: none; color: #f4f4f4;">&copy; 2024 Designed and built by C. Bernard.  <br> Contact me via <a href="mailto:cfr.bernard@yahoo.com">Email</a> / <a id="show-legal-popup" style="text-decoration: underline; cursor: pointer; " >Legal notice</a> </p></footer>
+
+    <script src="resources/scripts/index.js"></script>
+    <script src="resources/scripts/legal-popup-index.js"></script>
+</body>
+</html>
