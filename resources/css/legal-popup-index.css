@@ -7,7 +7,7 @@
     height: calc(var(--vh, 1vh) * 60);
     width: 90%;
     max-width: 600px;
-    background-color: white;
+    background-color: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
