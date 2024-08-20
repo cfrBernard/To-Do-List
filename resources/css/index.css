@@ -10,7 +10,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     -webkit-user-select: none;
     -moz-user-select: none; 
     -ms-user-select: none; 
@@ -59,12 +60,17 @@ body {
     }
     @media (max-height: 840px) {
         .container {
-            height: calc(var(--vh, 1vh) * 65); 
+            height: calc(var(--vh, 1vh) * 60); 
         }
     }
     @media (max-height: 640px) {
         .container {
-            height: calc(var(--vh, 1vh) * 70); 
+            height: calc(var(--vh, 1vh) * 65); 
+        }
+    }
+    @media (max-height: 440px) {
+        .container {
+            height: calc(var(--vh, 1vh) * 55); 
         }
     }
 .task-container {
@@ -75,7 +81,7 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background: #f9f9f9;
+    background: #f4f4f4;
     box-sizing: border-box;
     overflow: visible;
     cursor: pointer;
@@ -166,6 +172,7 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #ddd;
+    margin-bottom: 15px;
 }
 footer a {
     color: #ddd;
