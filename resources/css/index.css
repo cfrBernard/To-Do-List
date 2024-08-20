@@ -69,7 +69,8 @@ body {
     }
     @media (max-height: 440px) {
         .container {
-            height: calc(var(--vh, 1vh) * 55); 
+            height: calc(var(--vh, 1vh) * 55);
+            margin-top: 5px; 
         }
     }
 .task-container {
