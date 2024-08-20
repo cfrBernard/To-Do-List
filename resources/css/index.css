@@ -10,8 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none; 
     -ms-user-select: none; 
