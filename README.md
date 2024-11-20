@@ -23,3 +23,7 @@ A simple web application that allows users to manage their tasks and to-do lists
 ## License:
 This project is licensed under the MIT License. See the [docs/LICENSE](docs/LICENSE) file for details.
 
+---
+
+**Current Version**: 1.0 // [cfrbernard.github.io/To-Do-List](https://cfrbernard.github.io/To-Do-List/)
+
