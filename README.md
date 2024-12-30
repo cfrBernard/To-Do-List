@@ -21,7 +21,7 @@ A simple web application that allows users to manage their tasks and to-do lists
 ---
 
 ## License:
-This project is licensed under the MIT License. See the [LICENSE]/LICENSE) file for details.
+This project is licensed under the MIT License. See the **LICENSE** file for details.
 
 ---
 
