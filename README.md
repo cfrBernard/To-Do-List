@@ -2,7 +2,10 @@
 
 A simple web application that allows users to manage their tasks and to-do lists directly in their browser. This lightweight app is built using pure HTML, CSS, and JavaScript, with data stored locally using `localStorage` for a seamless and user-friendly experience. Enjoy an easy-to-use interface with complete control over your task list, without the need for server storage or third-party integrations.
 
-**Current Version**: 1.1.0 // [cfrbernard.github.io/To-Do-List](https://cfrbernard.github.io/To-Do-List/)
+[https://cfrbernard.github.io/To-Do-List/](https://cfrbernard.github.io/To-Do-List/)
+
+![Version](https://img.shields.io/badge/version-v1.1.0-blue)
+![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
 
 ---
 
@@ -23,7 +26,7 @@ A simple web application that allows users to manage their tasks and to-do lists
 ---
 
 ## License:
-This project is licensed under the MIT License. See the **LICENSE** file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
 
 ---
 
