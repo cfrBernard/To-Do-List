@@ -15,12 +15,18 @@ body {
     -moz-user-select: none; 
     -ms-user-select: none; 
     user-select: none; 
+    gap: 30px;
 }
+
+    @media (max-height: 480px) {
+        body {
+            gap: 10px;
+        }
+    }
 
 #title {
     color: #dbdbdb;
     font-size: 40px;
-    margin-bottom: 10%;
 }
 
 .background {

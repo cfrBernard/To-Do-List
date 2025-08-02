@@ -7,7 +7,7 @@
     height: calc(var(--vh, 1vh) * 60);
     width: 90%;
     max-width: 600px;
-    background-color: #f4f4f4;
+    background-color: #e6e6e6;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -29,10 +29,20 @@
         }
         #legal-popup-container p {
             font-size: large;
-            
             text-align: start;
             margin-top: 20px;
             margin-bottom: 6px;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        #legal-popup-container h3 {
+            margin-left: 0.8em;
+        }
+        #legal-popup-container h2 {
+            margin-left: 0.6em;
+        }
+        #legal-popup-container h1 {
+            margin-left: 0.4em;
         }
 #popup-overlay {
     display: none; 
@@ -63,16 +73,5 @@
             }
             #legal-popup-container p {
                 font-size: medium; 
-                margin-left: 1em;
-                margin-right: 1em;
-            }
-            #legal-popup-container h3 {
-                margin-left: 0.8em;
-            }
-            #legal-popup-container h2 {
-                margin-left: 0.6em;
-            }
-            #legal-popup-container h1 {
-                margin-left: 0.4em;
             }
         }
