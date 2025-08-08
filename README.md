@@ -4,8 +4,8 @@ A simple web application that allows users to manage their tasks and to-do lists
 
 [https://cfrbernard.github.io/To-Do-List/](https://cfrbernard.github.io/To-Do-List/)
 
-![Version](https://img.shields.io/badge/version-v1.2.0-blue)
-![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
+[![Version](https://img.shields.io/badge/version-v1.2.0-blue)](https://cfrbernard.github.io/To-Do-List/)
+[![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)](./LICENSE.md)
 
 ---
 
@@ -33,6 +33,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) 
 ## Contributors:
 - [syed-ghufran-hassan](https://github.com/syed-ghufran-hassan) – Added robust input validation and modular task creation logic.
 - [Naksh Rathore](https://github.com/Naksh-Rathore) – UI layout improvements
+
 
 
 
